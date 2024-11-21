@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hwb(0 95% 5%); /* light gray background */
+    background-image: url("s:\\New folder\\html\\my page\\abo.jpg"); /* add this line */
+    background-size: cover; /* optional, to scale the image to cover the entire page */
+}
+
+center {
+    text-align: center;
+}
+
+h1 {
+    color: #00698f; /* blue color for heading */
+}
+
+address {
+    display: inline-block;
+    margin: 80px;
+    padding: 80px;
+    border: 1px solid #ccc; /* light gray border */
+    border-radius: 80px; /* rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50; /* green color for buttons */
+    color: #fff; /* white text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41; /* darker green on hover */
+}
